@@ -1,57 +1,33 @@
-# 📚 Learning Management System (LMS)
 
-A **feature-rich desktop LMS** built with **PyQt6** and **SQLite**, designed to streamline academic workflows for both **students** and **administrators**.  
-It unifies course management, material delivery, tasks, announcements, reminders, notes, calendar events, and progress tracking into one modern, responsive interface.
+🏥 Hospital Management System – Java Swing + MySQL
+📌 Overview
+A Java-based standalone desktop application built using Swing for the GUI and MySQL for backend data storage.
+The system offers a streamlined interface for managing patients, doctors, staff, rooms, ambulances, and appointments — all in one place.
+With real-time CRUD operations and structured data management, it enhances hospital efficiency, saves time, and improves record accuracy.
 
----
+✨ Features
+Patient Management – Add, view, update, and delete patient records.
 
-## 🚀 Features
+Doctor Management – Maintain doctor details with specialization info.
 
-### 👤 Role-Based Access Control
-- **Student** — Access enrolled courses, tasks, notes, reminders, and personal progress reports.
-- **Admin** — Full CRUD control over courses, announcements, events, and student performance.
+Staff Management – Track and manage hospital staff roles.
 
-### 📦 Course & Material Management
-- Upload/manage PDFs (with page count tracking) and videos.
-- Safe deletion with cascading cleanup of related progress data.
-- Card-based course dashboard with progress indicators.
+Room & Bed Allocation – Advanced room booking and patient allocation system.
 
-### 📄 PDF & Video Access
-- **Custom PDF Viewer** with page-resume functionality.
-- Video playback via system player.
-- Persistent per-user progress tracking.
+Ambulance Tracking – Maintain a log of ambulance availability and assignments.
 
-### 📝 Tasks, Announcements & Reminders
-- Student-created tasks with deadlines.
-- Admin announcements as trackable tasks with approval workflows.
-- Personal reminders for deadlines and important dates.
+Appointment Scheduler – Book and manage appointments seamlessly.
 
-### 🗒️ Notes & Event Calendar
-- Rich-text **My Notes** with inline image support.
-- Calendar with color-coded events (holidays, academic days, etc.).
+Database Integration – Persistent data storage using MySQL.
 
-### 📊 Progress Analytics & Reports
-- Real-time bar/pie charts using **matplotlib**.
-- Auto-generated PDF progress reports (grades, achievements, remarks, signatures) stored in DB.
+🛠️ Tech Stack
+Language: Java (JDK 8+)
 
-### 🎨 Modern UI/UX
-- **Dark/Light themes**, collapsible sidebar, adaptive layouts.
-- Dialog-based editing, viewing, and confirmation actions.
+GUI Framework: Swing (Java Foundation Classes)
 
-### 🔒 Security & Data Integrity
-- SQLite backend with **foreign key constraints**.
-- PBKDF2-hashed credentials.
-- Input validation and guarded destructive actions.
+Database: MySQL 8.x
 
----
+Build Tool: Manual compilation in VSCode / any Java IDE
 
-## 🛠️ Tech Stack
-- **Frontend/UI**: [PyQt6](https://pypi.org/project/PyQt6/)
-- **Backend**: Python 3
-- **Database**: SQLite (local, FK constraints enabled)
-- **Data Visualization**: matplotlib
-- **PDF Reports**: reportlab
+Connector: MySQL Connector/J (JDBC driver)
 
----
-
-## 📂 Project Structure
